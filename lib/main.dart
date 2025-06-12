@@ -43,9 +43,9 @@ class MyApp extends StatelessWidget {
       ),
       home: TelaDashboard(),
       routes: {
-        "/": (context) => TelaDashboard(),
-        "/dashboard": (context) => TelaDashboard(),
-        "/recados": (context) => TelaRecados(),
+        "": (context) => TelaDashboard(),
+        "dashboard": (context) => TelaDashboard(),
+        "recados": (context) => TelaRecados(),
       },
     );
   }
